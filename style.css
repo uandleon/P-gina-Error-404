@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EB1C24;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+    transition: 0.8s;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+a{
+    margin-right: 1em;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#logo{
+    width: 4em;
+    margin: 1em;
+    margin-left: 3em;
+}
+
+header{
+    background-color: #111A29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: none;
+}
+
+#foxy{
+    width: 45em;
+}
+
+button{
+    border-radius: 3em;
+    margin: 0.5em;
+}
+
+input[type="submit"]{
+    padding: 7.5px 15px;
+    font-size: 17px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    outline: 0;
+    margin-bottom: 5em;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#divdomei{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10em;
+}
+
+h1{
+    color: white;
+    font-size: 6.5em;
+    margin-bottom: 0.5em;
+}
+
+p{
+    color: #111A29;
+    font-size: 1.5em;
+    font-family: monospace;
+    margin-bottom: 1em;
+}
+
